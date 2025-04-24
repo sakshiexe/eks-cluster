@@ -1,20 +1,23 @@
-# eks-cluster
-AWS EKS Cluster Infrastructure as Code (IaC)
-# AWS EKS Cluster Infrastructure
+# ☁️ AWS EKS Cluster Infrastructure
 
-![Terraform Version](https://img.shields.io/badge/terraform-%3E%3D1.0-blue)
-![AWS Provider](https://img.shields.io/badge/AWS-5.0+-orange)
+![Terraform Version](https://img.shields.io/badge/Terraform-%3E%3D1.0-blue)
+![AWS Provider](https://img.shields.io/badge/AWS-5.0%2B-orange)
+![CI](https://img.shields.io/badge/GitLab-CI%2FCD-blueviolet)
 
-This repository contains Terraform infrastructure as code to deploy a production-ready Amazon EKS cluster following AWS best practices.
+This repository contains Infrastructure as Code (IaC) to deploy a production-grade **Amazon EKS cluster** using **Terraform**, with local state and automated CI/CD using **GitLab pipelines**.
 
-## Features
+---
 
-- 🛠 **Managed Kubernetes**: Deploys EKS with optimized configuration
-- 🌐 **Networking**: VPC with public, private and intra subnets across 2 AZs
-- 💰 **Cost Optimization**: Uses Spot instances for worker nodes
-- 🔒 **Security**: Private node groups with controlled access
-- 🔄 **CI/CD**: GitHub Actions pipeline for automated deployment
+## 🚀 Features
 
+- 🛠 **Managed Kubernetes (EKS)** using Terraform
+- 🌐 **Custom VPC** with public, private, and intra subnets across two AZs
+- 💸 **Cost-effective setup** using EC2 Spot Instances for worker nodes
+- 🔐 **Secure architecture** with private node groups and limited internet exposure
+- 🔄 **CI/CD automation** via GitLab with `.gitlab-ci.yml`
+- 🖥️ **Local deploy script** using `deploy.sh` for on-demand provisioning
+
+---
 ## Architecture
 
 ![EKS Architecture Diagram](eks-architecture.png)
