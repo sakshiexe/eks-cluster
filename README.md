@@ -17,7 +17,7 @@ This repository contains Terraform infrastructure as code to deploy a production
 
 ## Architecture
 
-![EKS Architecture Diagram](diagrams/eks-architecture.png)
+![EKS Architecture Diagram](eks-architecture.png)
 
 ## Usage
 
